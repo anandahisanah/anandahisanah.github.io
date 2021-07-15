@@ -1,0 +1,27 @@
+body, .card, .list-group-item, .img-thumbnail {
+    background-color: #F1F6F9;
+}
+.bg-blue {
+    background-color: #14274E;
+}
+footer {
+    background-color: #14274E;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    clear: both;
+}
+a:hover {
+    color: #a2b0b8;
+}
+.nav-link:hover {
+    color: #a2b0b8;
+}
+.text-brown {
+    color: #394867;
+}
+.text-brown-light {
+    color: #F1F6F9;
+}
