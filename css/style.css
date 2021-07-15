@@ -1,0 +1,21 @@
+body, .card, .list-group-item, .img-thumbnail {
+    background-color: #F3F0D7;
+}
+.bg-blue {
+    background-color: #CEE5D0;
+}
+footer {
+    background-color: #5E454B;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    clear: both;
+}
+.text-brown {
+    color: #5E454B;
+}
+.text-brown-light {
+    color: #F3F0D7;
+}
