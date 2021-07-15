@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,8 +11,6 @@
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-        <!-- AOS -->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         <!-- CSS -->
         <link rel="stylesheet" href="css/style.css">
@@ -17,85 +18,138 @@
         <title>Ananda Nur Hisanah</title>
     </head>
     <body>
-        <nav class="bg-blue navbar navbar-expand-lg navbar-light justify-content-end">
+        <nav class="bg-blue navbar navbar-expand-lg navbar-light justify-content-center">
             <ul class="nav" id="nav-tab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link text-brown" id="nav-hello-tab" data-bs-toggle="tab" data-bs-target="#nav-hello" type="button" role="tab" aria-controls="nav-hello" aria-selected="true">Hello!</a>
+                    <a class="nav-link text-brown-light" id="nav-hello-tab" data-bs-toggle="tab" data-bs-target="#nav-hello" type="button" role="tab" aria-controls="nav-hello" aria-selected="true">Ananda Nur Hisanah!</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-brown" id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about" type="button" role="tab" aria-controls="nav-about" aria-selected="false">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-brown" id="nav-something-tab" data-bs-toggle="tab" data-bs-target="#nav-something" type="button" role="tab" aria-controls="nav-something" aria-selected="false">Something</a>
-                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link text-brown-light" id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about" type="button" role="tab" aria-controls="nav-about" aria-selected="false">Tentang</a>
+                </li> -->
+                <!-- <li class="nav-item">
+                    <a class="nav-link text-brown-light" id="nav-something-tab" data-bs-toggle="tab" data-bs-target="#nav-something" type="button" role="tab" aria-controls="nav-something" aria-selected="false">Something</a>
+                </li> -->
             </ul>
         </nav>
         <div class="px-3 py-5">
             <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-hello" role="tabpanel" aria-labelledby="nav-hello-tab">
-                    <h3 class="text-brown text-center">Pendidikan</h3>
-                    <div class="card border-0">
-                        <ul class="list-group list-group-flush border-0">
-                            <li class="list-group border-0">
-                                <h6 class="text-brown text-center">2017 - 2020, SMK Negeri 6 Balikpapan</h6>
-                            </li>
-                            <li class="list-group border-0">
-                                <h6 class="text-brown text-center">2020 - Sekarang, Universitas Mulia Balikpapan</h6>
-                            </li>
-                        </ul>
+                    <div data-aos="zoom-in-right">
+                        <h6 class="text-brown text-center mb-3">Cuma anak muda biasa yang kebetulan angkatan 2020. 1st Gen Lulusan Corona</h6>
                     </div>
-                    <h3 class="text-brown text-center mt-4 mb-3">Pengalaman</h3>
-                    <div class="card border-0">
-                        <ul class="list-group list-group-flush border-0">
-                            <li class="list-group border-0">
-                                <h6 class="text-brown text-center">2020 - Sekarang di Saffix</h6>
-                            </li>
-                        </ul>
+                    <!-- Pendidikan -->
+                    <!-- <div data-aos="zoom-in-right">
+                        <h3 class="text-brown text-center">Pendidikan</h3>
                     </div>
-                    <h3 class="text-brown text-center mt-4 mb-3">Teknologi</h3>
-                    <div class="card border-0">
-                        <ul class="list-group list-group-flush border-0">
-                            <li class="list-group border-0">
-                                <h6 class="text-brown text-center">Laravel</h6>
-                            </li>
-                            <li class="list-group border-0">
-                                <h6 class="text-brown text-center">VueJS</h6>
-                            </li>
-                        </ul>
+                    <div data-aos="flip-left">
+                        <div class="card border-0">
+                            <ul class="list-group list-group-flush border-0">
+                                <li class="list-group border-0">
+                                    <h6 class="text-brown text-center">2017 - 2020 di SMK Negeri 6 Balikpapan</h6>
+                                </li>
+                                <li class="list-group border-0">
+                                    <h6 class="text-brown text-center">2020 - Sekarang di Universitas Mulia Balikpapan</h6>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                    <!-- Pengalaman -->
+                    <!-- <div data-aos="zoom-in-right">
+                        <h3 class="text-brown text-center mt-4 mb-3">Pengalaman</h3>
                     </div>
-                    <h3 class="text-brown text-center mt-4 mb-3">Kontak</h3>
-                    <div class="card border-0">
-                        <ul class="list-group list-group-flush border-0">
-                            <li class="list-group-item text-center border-0">
-                                <a class="text-brown text-decoration-none" href="https://www.linkedin.com/in/ananda-nur-hisanah-8781a01b5/" target="_blank">
-                                    <img class="img-thumbnail border-0" src="img/linkedin.png" alt="linkedin" style="width: 50px"> Ananda Nur Hisanah
-                                </a>
-                            </li>
-                            <li class="list-group-item text-center border-0">
-                                <a class="text-brown text-decoration-none" href="">
-                                    <img class="img-thumbnail border-0" src="img/gmail.png" alt="gmail" style="width: 50px"> nurhisanah@gmail.com
-                                </a>
-                            </li>
-                            <li class="list-group-item text-center border-0">
-                                <a class="text-brown text-decoration-none" href="https://www.instagram.com/anandahisanah" target="_blank">
-                                    <img class="img-thumbnail border-0" src="img/instagram.png" alt="instagram" style="width: 50px"> @anandahisanah
-                                </a>
-                            </li>
-                        </ul>
+                    <div data-aos="flip-left">
+                        <div class="card border-0">
+                            <ul class="list-group list-group-flush border-0">
+                                <li class="list-group border-0">
+                                    <h6 class="text-brown text-center">2020 - Sekarang di Saffix</h6>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                    <!-- Teknologi -->
+                    <div data-aos="zoom-in-right">
+                        <h3 class="text-brown text-center mt-4 mb-3">Teknologi</h3>
+                    </div>
+                    <div data-aos="flip-left">
+                        <div class="card border-0">
+                            <ul class="list-group list-group-flush border-0">
+                                <li class="list-group-item text-center border-0">
+                                    <a class="text-brown text-decoration-none" href="https://getbootstrap.com/" target="_blank">
+                                        <img class="img-thumbnail border-0" src="img/bootstrap.png" alt="bootstrap" style="width: 50px">
+                                    </a>
+                                    <a class="text-brown text-decoration-none" href="https://laravel.com/" target="_blank">
+                                        <img class="img-thumbnail border-0" src="img/laravel.png" alt="laravel" style="width: 50px">
+                                    </a>
+                                    <a class="text-brown text-decoration-none" href="https://vuejs.org/" target="_blank">
+                                        <img class="img-thumbnail border-0" src="img/vuejs.png" alt="vuejs" style="width: 50px">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Kontak -->
+                    <div data-aos="zoom-in-right">
+                        <h3 class="text-brown text-center mt-4 mb-3">Kontak</h3>
+                    </div>
+                    <div data-aos="flip-left">
+                        <div class="card border-0">
+                            <ul class="list-group list-group-flush border-0">
+                                <li class="list-group-item text-center border-0">
+                                    <a class="text-brown text-decoration-none" href="https://www.linkedin.com/in/ananda-nur-hisanah-8781a01b5/" target="_blank">
+                                        <img class="img-thumbnail border-0" src="img/linkedin.png" alt="linkedin" style="width: 50px"> <b>Ananda Nur Hisanah</b>
+                                    </a>
+                                </li>
+                                <li class="list-group-item text-center border-0">
+                                    <a class="text-brown text-decoration-none" href="">
+                                        <img class="img-thumbnail border-0" src="img/gmail.png" alt="gmail" style="width: 50px"> <b>nurhisanah@gmail.com</b>
+                                    </a>
+                                </li>
+                                <li class="list-group-item text-center border-0">
+                                    <a class="text-brown text-decoration-none" href="https://www.instagram.com/anandahisanah" target="_blank">
+                                        <img class="img-thumbnail border-0" src="img/instagram.png" alt="instagram" style="width: 50px"> <b>@anandahisanah</b>
+                                    </a>
+                                </li>
+                                <li class="list-group-item text-center border-0">
+                                    <a class="text-brown text-decoration-none" href="https://github.com/anandahisanah" target="_blank">
+                                        <img class="img-thumbnail border-0" src="img/github.png" alt="github" style="width: 50px">
+                                    </a>
+                                    <a class="text-brown text-decoration-none" href="https://gitlab.com/anandahisanah" target="_blank">
+                                        <img class="img-thumbnail border-0" src="img/gitlab.png" alt="gitlab" style="width: 50px">
+                                    </a>
+                                    <b>anandahisanah</b>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Tertarik -->
+                    <div data-aos="zoom-out-right">
+                        <h3 class="text-brown text-center mt-4 mb-3">Tertarik dengan</h3>
+                    </div>
+                    <div data-aos="flip-left">
+                        <div class="card border-0">
+                            <ul class="list-group list-group-flush border-0">
+                                <li class="list-group-item text-center border-0">
+                                    <img class="img-thumbnail border-0" src="img/minecraft.png" alt="bootstrap" style="width: 50px">
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
-                </div>
-                <div class="tab-pane fade" id="nav-something" role="tabpanel" aria-labelledby="nav-something-tab">c</div>
+                <!-- <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab"></div>
+                <div class="tab-pane fade" id="nav-something" role="tabpanel" aria-labelledby="nav-something-tab"></div> -->
             </div>
         </div>
         <footer>
-            <h6 class="text-end">
+            <h6 class="text-end text-brown-light">
+                Made with ❤️ and 
                 <a class="text-brown-light text-decoration-none" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank">
-                    With Bootstrap 5
+                    Bootstrap 5
                 </a>
             </h6>
         </footer>
+
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
         <!-- Optional JavaScript; choose one of the two! -->
 
@@ -108,7 +162,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
         -->
 
-        <!-- AOS -->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

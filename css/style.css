@@ -1,11 +1,11 @@
 body, .card, .list-group-item, .img-thumbnail {
-    background-color: #F3F0D7;
+    background-color: #F1F6F9;
 }
 .bg-blue {
-    background-color: #CEE5D0;
+    background-color: #14274E;
 }
 footer {
-    background-color: #5E454B;
+    background-color: #14274E;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
@@ -13,9 +13,15 @@ footer {
     position: relative;
     clear: both;
 }
+a:hover {
+    color: #a2b0b8;
+}
+.nav-link:hover {
+    color: #a2b0b8;
+}
 .text-brown {
-    color: #5E454B;
+    color: #394867;
 }
 .text-brown-light {
-    color: #F3F0D7;
+    color: #F1F6F9;
 }
