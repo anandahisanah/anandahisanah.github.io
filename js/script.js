@@ -1,5 +1,5 @@
 var i = 0, text;
-text = "Cuma anak muda biasa yang kebetulan angkatan 2020. 1st Gen Lulusan Corona🎓"
+text = "Halo aku Nanda! Cuma anak muda biasa yang kebetulan angkatan 2020. 1st Gen Lulusan Corona🎓"
 
 function writing() {
     if (i < text.length) {
